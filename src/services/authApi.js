@@ -3,8 +3,11 @@
 const TOKEN_KEY = 'navi_3d_auth_token';
 const USER_KEY = 'navi_3d_auth_user';
 
-// Dynamically resolves to deployed backend URL (e.g. Render/Railway) or relative /api
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+// Dynamically resolves to deployed backend URL (Render) or relative /api in dev
+const API_BASE = (
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD ? 'https://navi-3d-backend.onrender.com' : '')
+).replace(/\/$/, '');
 
 export async function fetchDbStats() {
   try {
