@@ -1,0 +1,168 @@
+[
+  {
+    "id": "poi-ramp",
+    "title": "ADA Accessible Ramp Alpha",
+    "category": "accessible_ramp",
+    "position": [6, 1.3, 3.2],
+    "clearanceCm": 240,
+    "description": "ADA-compliant 1:12 slope ramp connecting the main hallway to the elevated presentation terrace.",
+    "features": [
+      "1:12 ADA Slope Ratio (4.8° incline)",
+      "Dual Stainless Steel Handrails at 90cm & 70cm",
+      "High-traction Non-slip Textured Decking",
+      "Continuous Edge Protection Curbs"
+    ],
+    "tags": [
+      "ramp",
+      "wheelchair",
+      "ada",
+      "slope",
+      "handrail",
+      "incline",
+      "deck",
+      "platform",
+      "terrace",
+      "accessible",
+      "entrance"
+    ],
+    "status": "Verified Accessible"
+  },
+  {
+    "id": "poi-tactile",
+    "title": "Tactile Navigation Strip Guide",
+    "category": "accessible_ramp",
+    "position": [-1.5, 1.2, 0],
+    "clearanceCm": 150,
+    "description": "High-contrast raised ribbed tactile paving designed for white-cane navigation guidance.",
+    "features": [
+      "High-contrast Warning Yellow Finish",
+      "Directional Ridge Paving for Cane Guidance",
+      "Direct Linear Hub Alignment",
+      "Zero Step Transition Across Corridor"
+    ],
+    "tags": [
+      "tactile",
+      "strip",
+      "cane",
+      "vision",
+      "blind",
+      "visual impairment",
+      "yellow",
+      "corridor",
+      "wayfinding",
+      "guidance",
+      "accessible"
+    ],
+    "status": "Guidance Active"
+  },
+  {
+    "id": "poi-elevator",
+    "title": "Priority Braille Elevator 01",
+    "category": "elevator",
+    "position": [-6, 1.4, -6],
+    "clearanceCm": 210,
+    "description": "Spacious priority elevator with voice announcement synthesis and low-mounted tactile Braille buttons.",
+    "features": [
+      "Braille & Embossed Tactile Keypad",
+      "Audio Floor Chimes & Vocalizer",
+      "Automatic Door Delay Obstacle Sensor",
+      "Low-mount Controls at 95cm Reach Height"
+    ],
+    "tags": [
+      "elevator",
+      "lift",
+      "braille",
+      "audio",
+      "voice",
+      "chime",
+      "vertical",
+      "levels",
+      "wheelchair",
+      "priority",
+      "accessible"
+    ],
+    "status": "Operational"
+  },
+  {
+    "id": "poi-restroom",
+    "title": "Universal Accessible Restroom",
+    "category": "restroom",
+    "position": [-6, 1.4, 4],
+    "clearanceCm": 120,
+    "description": "Step-free unisex accessible facility with motorized wave-to-open door and dual wall grab rails.",
+    "features": [
+      "Motorized Touchless Door Opener",
+      "L-shaped & Drop-down Safety Grab Bars",
+      "Floor-level Emergency Call Pull-cord",
+      "Wheelchair Turning Radius (150cm diameter)"
+    ],
+    "tags": [
+      "restroom",
+      "toilet",
+      "washroom",
+      "bathroom",
+      "wc",
+      "grab bars",
+      "touchless",
+      "unisex",
+      "gender neutral",
+      "wheelchair",
+      "accessible"
+    ],
+    "status": "Available"
+  },
+  {
+    "id": "poi-exit",
+    "title": "North Accessible Emergency Exit",
+    "category": "emergency_exit",
+    "position": [0, 1.4, -11.5],
+    "clearanceCm": 200,
+    "description": "Direct ground-level egress route equipped with acoustic alarm beacon and photoluminescent guiding markers.",
+    "features": [
+      "Full-width Push-bar Panic Hardware",
+      "Directional Acoustic Wayfinding Sounder",
+      "Photoluminescent Glow-in-the-dark Floor Strip",
+      "Zero-threshold Step-free Exterior Exit"
+    ],
+    "tags": [
+      "exit",
+      "emergency",
+      "fire",
+      "egress",
+      "evacuation",
+      "escape",
+      "safety",
+      "sounder",
+      "alarm",
+      "panic bar",
+      "north",
+      "accessible"
+    ],
+    "status": "Clear & Unobstructed"
+  },
+  {
+    "id": "poi-terrace",
+    "title": "Elevated Presentation Terrace",
+    "category": "accessible_ramp",
+    "position": [6, 1.8, -5],
+    "clearanceCm": 300,
+    "description": "Elevated indoor exhibition deck with safety glass balustrades and panoramic twin view.",
+    "features": [
+      "Step-free Ramp Connected",
+      "Continuous 110cm Glass Balustrade",
+      "Wide Turning Area for Power Wheelchairs",
+      "Tactile Hazard Warning Indicators at Edge"
+    ],
+    "tags": [
+      "terrace",
+      "deck",
+      "presentation",
+      "exhibition",
+      "ramp",
+      "wheelchair",
+      "panoramic",
+      "accessible"
+    ],
+    "status": "Open Access"
+  }
+]
