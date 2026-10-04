@@ -7,6 +7,9 @@ import dotenv from 'dotenv';
 import { getDb } from './db.js';
 
 dotenv.config();
+if (fs.existsSync(path.resolve(process.cwd(), '.env.local'))) {
+  dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+}
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

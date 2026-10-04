@@ -5,6 +5,9 @@ import pg from 'pg';
 import dotenv from 'dotenv';
 
 dotenv.config();
+if (fs.existsSync(path.resolve(process.cwd(), '.env.local'))) {
+  dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+}
 
 function hashPassword(password, salt) {
   return crypto.pbkdf2Sync(password, salt, 10000, 64, 'sha512').toString('hex');
