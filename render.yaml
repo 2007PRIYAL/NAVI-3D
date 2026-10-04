@@ -10,12 +10,6 @@ services:
       - key: PORT
         value: 10000
       - key: DATABASE_URL
-        fromDatabase:
-          name: navi-3d-db
-          property: connectionString
-
-databases:
-  - name: navi-3d-db
-    plan: free
-    databaseName: navi3d
-    user: navi3d_user
+        sync: false
+      - key: NODE_ENV
+        value: production
